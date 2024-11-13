@@ -1,0 +1,19 @@
+{
+  "name": "coords-script",
+  "module": "index.ts",
+  "type": "module",
+  "author": "DiegoT4l",
+  "scripts": {
+    "build": "bun run script.builder.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@citizenfx/client": "^2.0.10930-1",
+    "@citizenfx/server": "^2.0.10822-1"
+  }
+}
